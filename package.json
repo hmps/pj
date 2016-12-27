@@ -1,0 +1,28 @@
+{
+  "name": "@hmps/pj",
+  "version": "0.1.0",
+  "description": "A CLI tool that reads and reports what's in package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "bin": {
+    "pj": "bin/index.js"
+  },
+  "keywords": ["package.json", "value", "helper"],
+  "engines": {
+    "node": ">=6"
+  },
+  "author": "Hampus Persson <h@hmps.se> (http://hmps.se/)",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
